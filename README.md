@@ -10,27 +10,29 @@ The URL for this API is http://nounproject-bridge.herokuapp.com/
 
 There are 4 endpoints (all are GET):
 
-GET
+**GET**
 
-`top/:search/`
-Get the top search result
+`/top/:search/`
 
-search is a string such as "something you put on your head." 
+Get the top search result for {search}
 
-GET
-`top/:search/:numberOfResults`
+**GET**
 
-Get the top {numberOfResults} search results
+`/top/:search/:numberOfResults`
 
-GET
-`random/:search`
+Get the top {numberOfResults} search results for {search}
 
-Get one random search result
+**GET**
 
-GET
-`random/:search/:numberOfResults`
+`/random/:search`
 
-Get {numberOfResults} random search results
+Get one random search result for {search}
+
+**GET**
+
+`/random/:search/:numberOfResults`
+
+Get {numberOfResults} random search results for {search}
 
 ###NOTES
 
